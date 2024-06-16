@@ -22,8 +22,23 @@
     <script>
         var n1 = window.prompt('Digite um número: ')//string
         var n2 = window.prompt("Digite outro número: ") //string
-        var soma = Number.parseInt(n1) + Number.parseInt(n2) 
+        var soma = Number.parseInt(n1) + Number.parseInt(n2) //number
+        var nome = window.prompt("Escreva seu primeiro nome: ")
+        var div = n1 / n2 //number
+
+        //(Number + Number) para adição
+        //(String + String) para concatenação
+
+        //Manipulação de Number
         window.alert('A soma dos valores é: ' + soma) 
+        window.alert("Agora vamos multiplicar os valores escolhidos: " + Number(n1) * Number(n2))
+        window.alert("Vamos utiliza mais um operador, agora vamos dividir os números: " + div)
+        
+        //manipulação de String
+        window.alert("Agora vamos transforma esses números em 'String' e fazer sua união: " + String(n1) + n2.toString())
+        window.alert(`Agora vamos unir ao contrario ${n2}${n1}`) //template string
+        window.alert(`Seu nome em maiúsculas é ${nome.toUpperCase()}`)
+        window.alert(`A quantidade de letras que seu nome tem é ${nome.length}`)
     </script>
 </body>
 </html>
