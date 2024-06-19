@@ -1,0 +1,74 @@
+@charset 'UTF_8';
+
+nav{
+    width: 23%;
+    margin: 10px;
+}
+#inicio{
+    font-size: 1.5em;
+    text-align: center;
+}
+#inicio:hover{
+    border: none;
+    text-decoration: underline;
+}
+a{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--preto);
+}
+ul{
+    margin: 10px;
+    list-style: none;
+}
+ul:hover{
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+nav > ul >ul:hover{
+    border: none;
+}
+/* IDs DO SUBMENUS */
+#ul_va{
+    display: none;
+}
+#ul_td{
+    display: none;
+}
+#ul_co{
+    display: none;
+}
+#ul_re{
+    display: none;
+}
+
+#arrow_drop_va{
+    display: none;
+}
+#arrow_drop_td{
+    display: none;
+}
+#arrow_drop_co{
+    display: none;
+}
+#arrow_drop_re{
+    display: none;
+}
+
+li{
+    background-color: var(--cinza_light);
+    color: white;
+    padding: 10px;
+    margin: 1px;
+    padding-left: 30px;
+
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: var(--cinza_mid);
+}
