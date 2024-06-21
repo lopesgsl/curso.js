@@ -21,7 +21,7 @@ a{
     background-color: var(--preto);
 }
 ul{
-    margin: 20px;
+    margin: 0;
     padding: 1px;
     list-style: none;
     box-sizing: border-box;
@@ -33,6 +33,7 @@ ul:hover{
 nav > ul >ul:hover{
     border: none;
 }
+
 /* IDs DO SUBMENUS */
 #ul_va{
     display: none;
@@ -40,6 +41,7 @@ nav > ul >ul:hover{
 #ul_td{
     display: none;
 }
+/* inline e block */
 #ul_co{
     display: none;
 }
