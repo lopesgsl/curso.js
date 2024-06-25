@@ -1,4 +1,4 @@
-@charset 'UTF_8';
+@charset "UTF-8";
 
 nav{
     width: 23%;
@@ -26,9 +26,15 @@ ul{
     list-style: none;
     box-sizing: border-box;
 }
+.menu_ul{
+    height: 55pxpx;
+    margin: 15px;
+}
 ul:hover{
     border: 1px solid white;
     border-radius: 5px;
+
+    transition: 0.4s;
 }
 nav > ul >ul:hover{
     border: none;
