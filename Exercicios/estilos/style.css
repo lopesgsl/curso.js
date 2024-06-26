@@ -39,8 +39,9 @@ body{
     background-color: var(--preto);
 }
 main{
-    width: 73%;
+    width: 73vw;
     margin: auto;
+    margin-left: 22vw;
     background-color: var(--cinza_dark);
     box-shadow: rgba(0, 0, 0, 0.397) 0px 15px 25px, rgba(0, 0, 0, 0.39) 0px 5px 10px;
 }
