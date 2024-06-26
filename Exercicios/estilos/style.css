@@ -31,7 +31,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--font);
 }
 
 body{
@@ -55,7 +54,7 @@ h3{
 }
 h1,h2,h3,h4{
     margin: 20px;
-    font: var(--font_h);
+    font-family: var(--font_h);
     color: white;
     font-size: 2em;
 }
@@ -63,6 +62,7 @@ p{
     margin: 20px;
     color:var(--amarelo_leve);
     text-align: center;
+    font-family: var(--font);
 }
 strong{
     color: var(--rosa_destaque);
