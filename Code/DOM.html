@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p class="text">Aqui vai o resultado</p>
+    <p class="text">Apredendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div class="text">Clique en mim</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var titulo = document.body
+        var text = window.document.getElementsByClassName('text')
+
+        window.document.write(p1.innerHTML)
+        titulo.style.textShadow = "0.5px 0.5px 0px black"
+        text.style.color = 'black'
+    </script>
+</body>
+</html>
