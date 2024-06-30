@@ -52,8 +52,8 @@ ul:hover{
 nav > ul >ul:hover{
     border: none;
 }
-
 /* IDs DO SUBMENUS */
+
 #ul_va{
     display: none;
 }
